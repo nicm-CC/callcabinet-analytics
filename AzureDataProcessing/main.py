@@ -126,9 +126,7 @@ def run(params):
 
 if __name__ == "__main__":
     params_LS = {
-        "connection_string": 'DefaultEndpointsProtocol=https;AccountName=powerbimultitenant;AccountKey=Z4SFw/G' \
-                             '+JeZSCsdYS0O0PyUL8xNTG+tWxsiUOwqXAlpPqx0H3rqBbyDQFdbZzEKjJUN6/b0f3emb+AStxsJtFA==;EndpointSuffix' \
-                             '=core.windows.net',
+        "connection_string": '',
         "container_name": "calldata-a141879e-1ec6-4544-8942-8a08a1d2266f",
         "num_days_per_run": 1,
         "offset": 2,
@@ -137,7 +135,7 @@ if __name__ == "__main__":
         "test_files": False}
 
     params_PPS = {
-        "connection_string": 'DefaultEndpointsProtocol=https;AccountName=massmartdatalake;AccountKey=OkJXbydoy+FKsI0c9ywsVGyV0mO7gN+35vHFq1k7uhILW6ozTMkRhRXJpDk1PUgFKu7LhX/Lpoz1+AStpf+Blg==;EndpointSuffix=core.windows.net',
+        "connection_string": '',
         "container_name": "calldata-7bfe5965-bdd1-4a9d-a7d5-1196d1db9206",
         "num_days_per_run": 1,
         "offset": 2,
